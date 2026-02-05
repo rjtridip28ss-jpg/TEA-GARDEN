@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+
+  /* 🌱 Background Image */
+  background-image: 
+    /* linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), */
+    url("1347642.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.6);
+     
+}
+p {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Gallery Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  background:rgba(249, 247, 247, 0.838);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgb(175, 254, 3);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  color:rgb(0, 174, 255);
+}
+
+/* Lightbox Full Screen */
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+#lightbox-caption {
+  color: white;
+  margin-top: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: red;
+  cursor: pointer;
+}

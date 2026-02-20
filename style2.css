@@ -8,6 +8,19 @@ body {
   background: linear-gradient(135deg, #0b1d3a, #1f4fa8, #8ec5ff);
   background-attachment: fixed;
 }
+.p {
+    max-width: 900px;
+    margin: 15px auto 25px auto;
+    padding: 12px 18px;
+    text-align: center;
+    background: orange;
+    color: #222;
+    border-radius: 12px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
 
 h1 {
   text-align: center;
@@ -97,6 +110,7 @@ p {
   color: red;
   cursor: pointer;
 }
+
 
 
 

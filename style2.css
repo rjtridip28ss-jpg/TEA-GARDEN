@@ -8,7 +8,7 @@ body {
   background: linear-gradient(135deg, #0b1d3a, #1f4fa8, #8ec5ff);
   background-attachment: fixed;
 }
-.p {
+.p1 {
     max-width: 900px;
     margin: 15px auto 25px auto;
     padding: 12px 18px;
@@ -110,6 +110,7 @@ p {
   color: red;
   cursor: pointer;
 }
+
 
 
 

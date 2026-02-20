@@ -12,16 +12,15 @@ body {
     max-width: 900px;
     margin: 15px auto 30px auto;
     text-align: center;
-
-    background: none;          
-    box-shadow: none;          
+    background: transparent;
+    box-shadow: none;
     border: none;
-
-    color: #ff6a00;           
+    padding: 0;
+    color: #ff7a18;      
+    font-style: italic; 
     font-size: 16px;
     line-height: 1.7;
     font-weight: 500;
-    font-style: italic;
 }
 
 h1 {
@@ -112,6 +111,7 @@ p {
   color: red;
   cursor: pointer;
 }
+
 
 
 

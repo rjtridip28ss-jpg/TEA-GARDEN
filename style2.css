@@ -11,6 +11,13 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  /* Dark blue to light light blue gradient */
+  background: linear-gradient(
+    to bottom right,
+    #0a1f44,
+    #1e4fa3,
+    #6fb1ff
+ );   
 }
 
 h1 {
@@ -101,3 +108,4 @@ p {
   color: red;
   cursor: pointer;
 }
+

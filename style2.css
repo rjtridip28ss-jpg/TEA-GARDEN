@@ -4,10 +4,8 @@ body {
   padding: 20px;
   min-height: 100vh;
 
-  /* 🌱 Background Image */
-  background-image: 
+  /* 🌱 Background Image *
     /* linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), */
-    url("1347642.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -108,4 +106,5 @@ p {
   color: red;
   cursor: pointer;
 }
+
 

@@ -4,18 +4,9 @@ body {
   padding: 20px;
   min-height: 100vh;
 
-  /* 🌱 Background Image *
-    /* linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), */
-  background-size: cover;
-  background-position: center;
+  /* Blue gradient background */
+  background: linear-gradient(135deg, #0b1d3a, #1f4fa8, #8ec5ff);
   background-attachment: fixed;
-  /* Dark blue to light blue gradient */
-  background: linear-gradient(
-    to bottom right,
-    #0a1f44,
-    #1e4fa3,
-    #6fb1ff
- );   
 }
 
 h1 {
@@ -106,6 +97,7 @@ p {
   color: red;
   cursor: pointer;
 }
+
 
 
 

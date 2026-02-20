@@ -12,10 +12,9 @@ body {
   /* Dark green to light light green gradient */
   background: linear-gradient(
     to bottom right,
-    135deg,
-    #0b1d3a,
-    #1f4fa8,
-    #8ec5ff
+    #0a1f44,
+    #1e4fa3,
+    #6fb1ff
  );   
 }
 

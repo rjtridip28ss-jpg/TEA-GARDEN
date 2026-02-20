@@ -12,9 +12,9 @@ body {
   /* Dark blue to light light blue gradient */
   background: linear-gradient(
     to bottom right,
-    #0a1f44,
-    #1e4fa3,
-    #6fb1ff
+    #0b1d3a,
+    #1f4fa8,
+    #8ec5ff
  );   
 }
 
@@ -106,5 +106,6 @@ p {
   color: red;
   cursor: pointer;
 }
+
 
 

@@ -9,15 +9,21 @@ body {
   background-attachment: fixed;
 }
 .p1 {
-    max-width: 850px;
+    width: 100%;               
+    max-width: 1100px;         
     margin: 15px auto;
-    text-align: left;
-    background: transparent;
-    padding: 0 10px;
-    color: #ff7a18;      
-    font-style: italic; 
+    
+    text-align: left;       
+    
+    background: none;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+
+    color: #ff7a18;          
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.6;         
+    font-style: italic;       
     font-weight: 500;
 }
 
@@ -109,6 +115,7 @@ p {
   color: red;
   cursor: pointer;
 }
+
 
 
 

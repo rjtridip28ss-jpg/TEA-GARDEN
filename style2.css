@@ -9,9 +9,10 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  /* Dark blue to light light blue gradient */
+  /* Dark green to light light green gradient */
   background: linear-gradient(
     to bottom right,
+    135deg,
     #0b1d3a,
     #1f4fa8,
     #8ec5ff
@@ -106,6 +107,7 @@ p {
   color: red;
   cursor: pointer;
 }
+
 
 
 
